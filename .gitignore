@@ -1,6 +1,9 @@
 
 #data
-data
+data/raw/CMS*
+data/processed/CMS_Provider(2016_2019).csv
+data/processed/Clean_CMS_Provider(2016_2019).csv
+
 
 #python
 __pycache__
