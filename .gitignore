@@ -1,9 +1,9 @@
 
-data/raw/CMS*
+#data
+data
 
-data/processed/CMS*
-data/processed/Clean*
-
+#python
 __pycache__
 
+#notebooks
 .ipynb_checkpoints
