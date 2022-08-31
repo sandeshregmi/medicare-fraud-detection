@@ -1,0 +1,9 @@
+
+data/raw/CMS*
+
+data/processed/CMS*
+data/processed/Clean*
+
+__pycache__
+
+.ipynb_checkpoints
