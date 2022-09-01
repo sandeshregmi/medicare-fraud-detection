@@ -156,7 +156,7 @@ st.title('Medicare fraud detection')
 #First container (manually enter a practitioner)
 with st.container():
     
-    st.subheader('Enter the practitioner details :')
+    st.subheader('Enter the practitioner annual details :')
     col1, col2 = st.columns([1,1],gap='small')
 
     #User input
