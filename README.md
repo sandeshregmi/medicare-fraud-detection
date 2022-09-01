@@ -1,10 +1,9 @@
-
 # Medicare fraud detection
 A machine learning based web application to help detect fraudulent practitioners among Medicare.
 
 Check the notebooks for more details about data processing and model training/evaluation.
-## Requirements
 
+## Requirements
 * Python 3.9+
 * conda (to create the virtual environments)
 
@@ -32,6 +31,7 @@ __It is very important that the CSV file respects a specific order of columns / 
     8. Average Risk Score
     9. Charges Submitted
     10. Charges Paid 
+
 #### Creating the virtual environments
 * Make sure that conda is installed and run the following command :
 ```python
