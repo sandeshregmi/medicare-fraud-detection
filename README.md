@@ -18,7 +18,7 @@ pip install -r requirements.txt
 python app.py
 ``` 
 
-![alt text](https://i.ibb.co/gMpTxzL/interface.png)
+![alt text](https://i.ibb.co/RYLKJNc/Capture.png)
 __It is very important that the CSV file respects a specific order of columns / variables :__
    
     1. Specialty
