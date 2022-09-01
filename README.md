@@ -11,7 +11,7 @@ Check the notebooks for more details about data processing and model training/ev
 #### Launching the app
 * Make sure that the requirements are installed : 
 ```python
-pip install requirements.txt
+pip install -r requirements.txt
 ``` 
 * Launch the app from terminal :
 ```
