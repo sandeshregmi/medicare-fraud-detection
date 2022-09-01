@@ -33,7 +33,7 @@ __It is very important that the CSV file respects a specific order of columns / 
     9. Charges Submitted
     10. Charges Paid 
 #### Creating the virtual environments
-* Make sure that conda you have conda installed and run the following command :
+* Make sure that conda is installed and run the following command :
 ```python
 conda env create -f medicare-fraud-env.yml
 ``` 
