@@ -151,7 +151,7 @@ if 'history' not in st.session_state:
 
 #Set page title
 st.title('Medicare fraud detection')
-st.write('')
+
 
 #First container (manually enter a practitioner)
 with st.container():
