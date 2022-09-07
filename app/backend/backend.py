@@ -4,11 +4,42 @@ import pandas as pd
 import numpy as np
 from fastapi import FastAPI
 from joblib import load
-from practitioner import Practitioner
-from dataframe import DataFrame
+# from practitioner import Practitioner
+# from dataframe import DataFrame
 import os
 from pathlib import Path
 import uvicorn
+from pydantic import BaseModel,StrictStr
+
+class DataFrame(BaseModel):
+    """Dataframe that contains the practitioner details"""
+  
+    spec : list 
+    state : list
+    gender : list
+    tot_hcpcs : list
+    male_bene : list
+    avg_age : list
+    tot_serv : list
+    tot_bene : list
+    avg_risk_score : list
+    charges_subm : list
+    charges_payed : list
+
+class Practitioner(BaseModel):
+    """Class which describes Practitioner's informations """
+  
+    spec : StrictStr
+    state : StrictStr
+    gender : StrictStr
+    tot_hcpcs : int
+    male_bene : int
+    avg_age : float
+    tot_serv : int
+    tot_bene : int
+    avg_risk_score : float
+    charges_subm : float
+    charges_payed : float
 
 path = Path(__file__)
 root_dir = path.parent.parent.parent.absolute()
