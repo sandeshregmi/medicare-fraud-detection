@@ -41,6 +41,7 @@ class Practitioner(BaseModel):
     charges_subm : float
     charges_payed : float
 
+#set root directory
 path = Path(__file__)
 root_dir = path.parent.parent.parent.absolute()
 
