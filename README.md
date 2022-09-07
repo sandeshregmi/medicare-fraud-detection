@@ -1,7 +1,7 @@
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mohamed-lahna-medicare-fraud-detection-streamlitmain-dep-goowye.streamlitapp.com/)
+
 # Medicare fraud detection
 A machine learning based web application to help detect fraudulent practitioners among Medicare.
-
-* Explore the app : https://bit.ly/3cJiIeT
 
 * Check the notebooks for more details about data processing and model training/evaluation.
 
