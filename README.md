@@ -1,9 +1,9 @@
 # Medicare fraud detection
 A machine learning based web application to help detect fraudulent practitioners among Medicare.
 
-Explore the app : https://bit.ly/3cJiIeT
+* Explore the app : https://bit.ly/3cJiIeT
 
-Check the notebooks for more details about data processing and model training/evaluation.
+* Check the notebooks for more details about data processing and model training/evaluation.
 
 ## Requirements
 * Python 3.9+
