@@ -4,8 +4,6 @@ import pandas as pd
 import numpy as np
 from fastapi import FastAPI
 from joblib import load
-# from practitioner import Practitioner
-# from dataframe import DataFrame
 import os
 from pathlib import Path
 import uvicorn
@@ -154,4 +152,4 @@ def response(df : DataFrame):
     
 if __name__ == '__main__':
 
-    uvicorn.run(app, host='127.0.0.1', port=5000)
+    uvicorn.run(app, host='127.0.0.1', port=8000)
